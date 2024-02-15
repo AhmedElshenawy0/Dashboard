@@ -1,0 +1,11 @@
+.before::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #B9B9B9;
+    right: 0;
+    width: 2px;
+    height: 48px;
+}
+
