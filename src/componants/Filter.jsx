@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 const Filter = () => {
-  const [dropDown, setDropDown] = useState(true);
+  const [dropDown, setDropDown] = useState(false);
   return (
     <div className=" bg-secondaryColor rounded-[15px] py-[25px] pr-[16px] pl-[27px] w-[100%] lg:w-[300px] xl:basis-[360px]">
       <h2 className="text-center text-[#FFFFFF] text-[32px] font-bold">
